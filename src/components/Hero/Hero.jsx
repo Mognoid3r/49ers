@@ -11,7 +11,7 @@ const Hero = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
 
   return (
-    <div className="hero" id='home'>
+    <div className="hero" id="home">
       <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
@@ -19,7 +19,7 @@ const Hero = () => {
         {/* the best ad */}
         <div className="div the-best-ad">
           <motion.div
-            initial={{ left: mobile? "178px": '238px' }}
+            initial={{ left: mobile ? "178px" : "238px" }}
             whileInView={{ left: "8px" }}
             transition={{ ...transition, type: "tween" }}
           ></motion.div>
@@ -50,7 +50,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <button className="btn">Call Now</button>
+        <button className="btn">
+          <a href="tel:5202619234" 
+          style={{
+            textDecoration: "none",
+            color: "var(--orange)",
+          }}> Call Now</a>
+        </button>
 
         {/* <div className="div heart-rate">
           <img src={Heart} alt="" />
