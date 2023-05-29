@@ -16,7 +16,11 @@
     flex: 1;
     position: relative;
     background-color: var(--orange);
+    display: flex;
+    flex-direction: row;
 }
+
+
 .the-best-ad{
     margin-top: 4rem;
     background-color: #363d42;
@@ -92,6 +96,14 @@ width: 8rem;
     color:black;
     border-radius: 1rem;
     box-shadow: 8px 5px 15px var(--darkGrey);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.call{
 
 }
 

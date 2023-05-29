@@ -50,12 +50,15 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
+        
         <button className="btn">
           <a href="tel:5202619234" 
           style={{
             textDecoration: "none",
             color: "var(--orange)",
-          }}> Call Now</a>
+          }}> 
+          Call Now!
+           </a>
         </button>
 
         {/* <div className="div heart-rate">
