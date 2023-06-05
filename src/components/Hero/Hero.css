@@ -156,6 +156,7 @@ width: 8rem;
     left: 0;
 }
 
+/* 
 @media screen and (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -213,4 +214,4 @@ width: 8rem;
         z-index: 99;
         
     }
-}
+} */
