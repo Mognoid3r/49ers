@@ -8,7 +8,8 @@ import Hero from './components/Hero/Hero';
 function App() {
   return (
     <div className="App">
-          <Hero/>
+      Test text! 
+          {/* <Hero/> */}
           {/* <Programs />
           <Reasons />
           <Plans />
